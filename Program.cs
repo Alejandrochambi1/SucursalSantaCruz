@@ -4,6 +4,8 @@ using Sucursal.Infraestructura.Clientes;
 using Sucursal.Infraestructura.Data;
 using Sucursal.Infraestructura.Repositorios;
 using Sucursal.Infraestructura.Servicios;
+// 1. Agrega esto PRIMERO de todo
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var builder = WebApplication.CreateBuilder(args);
 
