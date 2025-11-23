@@ -7,15 +7,31 @@ using Sucursal.Infraestructura.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls("http://0.0.0.0:8080");
+// 1. CONFIGURACIÓN DEL PUERTO (OBLIGATORIO PARA RAILWAY)
+// Tus notas dicen 8080 fijo, pero Railway asigna puertos dinámicos.
+// Esta línea usa la variable PORT si existe (Nube), o el 8080 si es Local.
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
-// Cargar configuración de appsettings.json
+// Cargar appsettings
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
-// Database Context
-var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL")
-    ?? builder.Configuration.GetConnectionString("SucursalContext")
-    ?? "Server=localhost;Port=5432;Database=sucursal_scz;User Id=postgres;Password=password;";
+// 2. BASE DE DATOS (SEGÚN TUS NOTAS)
+// Leemos la variable "DATABASE" que pusiste en Railway.
+// Si no existe (es null), usa la del appsettings (Local).
+var urlRailway = Environment.GetEnvironmentVariable("DATABASE");
+
+var connectionString = urlRailway ?? builder.Configuration.GetConnectionString("SucursalContext");
+
+// Imprimir en consola para depurar (como dicen tus notas)
+if (!string.IsNullOrEmpty(urlRailway))
+{
+    Console.WriteLine($"--> USANDO BASE DE DATOS RAILWAY: {urlRailway}");
+}
+else
+{
+    Console.WriteLine("--> USANDO BASE DE DATOS LOCAL");
+}
 
 builder.Services.AddDbContext<SucursalDbContext>(options =>
     options.UseNpgsql(connectionString));
@@ -25,9 +41,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyOrigin()
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
 
@@ -156,23 +170,33 @@ builder.Services.AddHttpClient<IPlanificacionClient, PlanificacionClient>(client
         ?? "http://localhost:5017");
 });
 
-// ==================== SERVICIOS DE APLICACIÓN ====================
+// Servicios de Aplicación
 builder.Services.AddScoped<DashboardService>();
 builder.Services.AddScoped<SolicitudesService>();
 builder.Services.AddScoped<ReportesService>();
 
-// Controllers y Swagger
+// Configuración API
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAuthorization(); // <--- ¡NO BORRES ESTO! Evita que la app se rompa.
 
 var app = builder.Build();
 
-// Migrar base de datos automáticamente
+// 3. MIGRACIÓN AUTOMÁTICA (COMO DICEN TUS NOTAS)
+// Esto ejecuta el "update database" solito cuando subes a la nube.
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<SucursalDbContext>();
-    db.Database.Migrate();
+    try
+    {
+        db.Database.Migrate();
+        Console.WriteLine("--> Migración aplicada exitosamente en Railway.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"--> Error aplicando migración: {ex.Message}");
+    }
 }
 
 if (app.Environment.IsDevelopment())
@@ -182,7 +206,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowAll");
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection(); // Comentado para evitar errores de conexión
 app.UseAuthorization();
 app.MapControllers();
 

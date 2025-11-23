@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sucursal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b1105b518e2282f4c8e78cf041f81a4eb4e1d0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sucursal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sucursal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
