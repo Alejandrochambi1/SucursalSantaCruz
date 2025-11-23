@@ -19,7 +19,7 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnC
 // 2. BASE DE DATOS (SEGÚN TUS NOTAS)
 // Leemos la variable "DATABASE" que pusiste en Railway.
 // Si no existe (es null), usa la del appsettings (Local).
-var urlRailway = Environment.GetEnvironmentVariable("DATABASE");
+var urlRailway = Environment.GetEnvironmentVariable("DATABASE_PUBLIC_URL");
 
 var connectionString = urlRailway ?? builder.Configuration.GetConnectionString("SucursalContext");
 
