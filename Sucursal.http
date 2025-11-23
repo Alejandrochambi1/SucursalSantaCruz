@@ -1,0 +1,6 @@
+@Sucursal_HostAddress = http://localhost:5030
+
+GET {{Sucursal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

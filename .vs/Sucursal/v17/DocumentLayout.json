@@ -1,0 +1,682 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programacionweb2\\examen2practica\\Sucursal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\servicios\\solicitudesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\servicios\\solicitudesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\mock-data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:mock-data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\sucursal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:sucursal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\servicios\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\servicios\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\sucursal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:sucursal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\data\\sucursaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\data\\sucursaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programacionweb2\\examen2practica\\Sucursal\\Migrations\\20251123140810_M1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251123140810_M1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\mocks\\jsonmockhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\mocks\\jsonmockhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\almacenfabricaclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\almacenfabricaclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\contabilidadclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\contabilidadclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\marketingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\marketingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\servicios\\reportesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\servicios\\reportesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\mappers\\solicitudmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\mappers\\solicitudmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\interfaces\\ialmacenclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\interfaces\\ialmacenclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\dtos\\actualizarestadosolicitudcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\dtos\\actualizarestadosolicitudcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\presentacion\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:presentacion\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\ventasclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\ventasclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\repositorios\\solicitudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\repositorios\\solicitudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\produccionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\produccionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\planificacionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\planificacionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\mantenimientoclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\mantenimientoclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\controlcalidadclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\controlcalidadclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\atencionclienteclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\atencionclienteclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\clientes\\almacenclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\clientes\\almacenclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\infraestructura\\repositorios\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:infraestructura\\repositorios\\reporterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\entidades\\solicitudinterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\entidades\\solicitudinterna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\entidades\\reportediarioconsolidado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\entidades\\reportediarioconsolidado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\entidades\\itemsolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\entidades\\itemsolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\entidades\\gerentesucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\entidades\\gerentesucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\dtos\\registrarreportediariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\dtos\\registrarreportediariocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\dtos\\crearsolicitudcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\dtos\\crearsolicitudcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\dtos\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\dtos\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|d:\\programacionweb2\\examen2practica\\sucursal\\core\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE4CB35-1A27-4B5C-8E47-DFE4BEFD1D94}|Sucursal.csproj|solutionrelative:core\\entidades\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mock-data.json",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\mock-data.json",
+              "RelativeDocumentMoniker": "mock-data.json",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\mock-data.json",
+              "RelativeToolTip": "mock-data.json",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAYwPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-23T15:19:47.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-23T14:44:56.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251123140810_M1.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Migrations\\20251123140810_M1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251123140810_M1.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Migrations\\20251123140810_M1.cs",
+              "RelativeToolTip": "Migrations\\20251123140810_M1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:08:11.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\build\\Container.targets",
+              "ViewState": "AgIAANAAAAAAAAAAAAAnwNkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-23T14:02:34.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sucursal.http",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Sucursal.http",
+              "RelativeDocumentMoniker": "Sucursal.http",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Sucursal.http",
+              "RelativeToolTip": "Sucursal.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-23T14:01:03.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JsonMockHandler.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Mocks\\JsonMockHandler.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Mocks\\JsonMockHandler.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Mocks\\JsonMockHandler.cs",
+              "RelativeToolTip": "Infraestructura\\Mocks\\JsonMockHandler.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:52:35.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA8AAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-23T13:24:19.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AlmacenFabricaClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\AlmacenFabricaClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\AlmacenFabricaClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\AlmacenFabricaClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\AlmacenFabricaClient.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAiwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:22:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContabilidadClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\ContabilidadClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\ContabilidadClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\ContabilidadClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\ContabilidadClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:22:00.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MarketingClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\MarketingClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\MarketingClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\MarketingClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\MarketingClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:20:47.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAlmacenClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Interfaces\\IAlmacenClient.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IAlmacenClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Interfaces\\IAlmacenClient.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IAlmacenClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:52:09.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VentasClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\VentasClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\VentasClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\VentasClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\VentasClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:51:42.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProduccionClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\ProduccionClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\ProduccionClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\ProduccionClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\ProduccionClient.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:49:49.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlanificacionClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\PlanificacionClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\PlanificacionClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\PlanificacionClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\PlanificacionClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:49:48.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MantenimientoClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\MantenimientoClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\MantenimientoClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\MantenimientoClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\MantenimientoClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:49:47.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ControlCalidadClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\ControlCalidadClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\ControlCalidadClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\ControlCalidadClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\ControlCalidadClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:49:41.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AtencionClienteClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\AtencionClienteClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\AtencionClienteClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\AtencionClienteClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\AtencionClienteClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:49:40.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AlmacenClient.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\AlmacenClient.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Clientes\\AlmacenClient.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Clientes\\AlmacenClient.cs",
+              "RelativeToolTip": "Infraestructura\\Clientes\\AlmacenClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:49:36.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:36:13.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReportesService.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Servicios\\ReportesService.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Servicios\\ReportesService.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Servicios\\ReportesService.cs",
+              "RelativeToolTip": "Infraestructura\\Servicios\\ReportesService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwHoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:24:01.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SolicitudesService.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Servicios\\SolicitudesService.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Servicios\\SolicitudesService.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Servicios\\SolicitudesService.cs",
+              "RelativeToolTip": "Infraestructura\\Servicios\\SolicitudesService.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:23:53.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Servicios\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Servicios\\DashboardService.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Servicios\\DashboardService.cs",
+              "RelativeToolTip": "Infraestructura\\Servicios\\DashboardService.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAAHQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:23:33.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SolicitudRepository.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Repositorios\\SolicitudRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\SolicitudRepository.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Repositorios\\SolicitudRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\SolicitudRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:22:56.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReporteRepository.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Repositorios\\ReporteRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Repositorios\\ReporteRepository.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Repositorios\\ReporteRepository.cs",
+              "RelativeToolTip": "Infraestructura\\Repositorios\\ReporteRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:22:46.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SucursalDbContext.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Data\\SucursalDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructura\\Data\\SucursalDbContext.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Infraestructura\\Data\\SucursalDbContext.cs",
+              "RelativeToolTip": "Infraestructura\\Data\\SucursalDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:20:33.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SolicitudMapper.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Mappers\\SolicitudMapper.cs",
+              "RelativeDocumentMoniker": "Core\\Mappers\\SolicitudMapper.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Mappers\\SolicitudMapper.cs",
+              "RelativeToolTip": "Core\\Mappers\\SolicitudMapper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:18:22.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegistrarReporteDiarioCommand.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\RegistrarReporteDiarioCommand.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\RegistrarReporteDiarioCommand.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\RegistrarReporteDiarioCommand.cs",
+              "RelativeToolTip": "Core\\DTOs\\RegistrarReporteDiarioCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:15:54.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DashboardDTO.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\DashboardDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\DashboardDTO.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\DashboardDTO.cs",
+              "RelativeToolTip": "Core\\DTOs\\DashboardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:15:37.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CrearSolicitudCommand.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\CrearSolicitudCommand.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\CrearSolicitudCommand.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\CrearSolicitudCommand.cs",
+              "RelativeToolTip": "Core\\DTOs\\CrearSolicitudCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:15:21.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ActualizarEstadoSolicitudCommand.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\ActualizarEstadoSolicitudCommand.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\ActualizarEstadoSolicitudCommand.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\DTOs\\ActualizarEstadoSolicitudCommand.cs",
+              "RelativeToolTip": "Core\\DTOs\\ActualizarEstadoSolicitudCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:15:02.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SolicitudInterna.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\SolicitudInterna.cs",
+              "RelativeDocumentMoniker": "Core\\Entidades\\SolicitudInterna.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\SolicitudInterna.cs",
+              "RelativeToolTip": "Core\\Entidades\\SolicitudInterna.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:13:18.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ReporteDiarioConsolidado.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\ReporteDiarioConsolidado.cs",
+              "RelativeDocumentMoniker": "Core\\Entidades\\ReporteDiarioConsolidado.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\ReporteDiarioConsolidado.cs",
+              "RelativeToolTip": "Core\\Entidades\\ReporteDiarioConsolidado.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:12:29.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ItemSolicitud.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\ItemSolicitud.cs",
+              "RelativeDocumentMoniker": "Core\\Entidades\\ItemSolicitud.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\ItemSolicitud.cs",
+              "RelativeToolTip": "Core\\Entidades\\ItemSolicitud.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:12:13.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GerenteSucursal.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\GerenteSucursal.cs",
+              "RelativeDocumentMoniker": "Core\\Entidades\\GerenteSucursal.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\GerenteSucursal.cs",
+              "RelativeToolTip": "Core\\Entidades\\GerenteSucursal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:11:59.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SucursalController.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Presentacion\\Controllers\\SucursalController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\SucursalController.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Presentacion\\Controllers\\SucursalController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\SucursalController.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:11:26.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Core\\Entidades\\Sucursal.cs",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Core\\Entidades\\Sucursal.cs",
+              "RelativeToolTip": "Core\\Entidades\\Sucursal.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T04:04:12.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sucursal",
+              "DocumentMoniker": "D:\\programacionweb2\\examen2practica\\Sucursal\\Sucursal.csproj",
+              "RelativeDocumentMoniker": "Sucursal.csproj",
+              "ToolTip": "D:\\programacionweb2\\examen2practica\\Sucursal\\Sucursal.csproj",
+              "RelativeToolTip": "Sucursal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-23T03:45:41.421Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 27,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 27,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "ContainingType": "Sucursal.Presentacion.Controllers.SucursalController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Sucursal/dashboard/{codigoSucursal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoSucursal",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sucursal.Presentacion.Controllers.SucursalController",
+    "Method": "RegistrarReporteDiario",
+    "RelativePath": "api/Sucursal/reportes/diario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Sucursal.Core.DTOs.RegistrarReporteDiarioCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sucursal.Presentacion.Controllers.SucursalController",
+    "Method": "GetReporteDiario",
+    "RelativePath": "api/Sucursal/reportes/diario/{codigoSucursal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoSucursal",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sucursal.Presentacion.Controllers.SucursalController",
+    "Method": "GetReporteMensual",
+    "RelativePath": "api/Sucursal/reportes/mensual/{codigoSucursal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoSucursal",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "mes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "anio",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sucursal.Presentacion.Controllers.SucursalController",
+    "Method": "CrearSolicitud",
+    "RelativePath": "api/Sucursal/solicitudes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Sucursal.Core.DTOs.CrearSolicitudCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sucursal.Presentacion.Controllers.SucursalController",
+    "Method": "ActualizarEstadoSolicitud",
+    "RelativePath": "api/Sucursal/solicitudes/{idSolicitud}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSolicitud",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Sucursal.Core.DTOs.ActualizarEstadoSolicitudCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sucursal.Presentacion.Controllers.SucursalController",
+    "Method": "GetSolicitudesPendientes",
+    "RelativePath": "api/Sucursal/solicitudes/pendientes/{codigoSucursal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoSucursal",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
