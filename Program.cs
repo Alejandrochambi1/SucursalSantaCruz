@@ -4,14 +4,13 @@ using Sucursal.Infraestructura.Clientes;
 using Sucursal.Infraestructura.Data;
 using Sucursal.Infraestructura.Repositorios;
 using Sucursal.Infraestructura.Servicios;
-// 1. Agrega esto PRIMERO de todo
+
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. CONFIGURACIÓN DEL PUERTO (OBLIGATORIO PARA RAILWAY)
-// Tus notas dicen 8080 fijo, pero Railway asigna puertos dinámicos.
-// Esta línea usa la variable PORT si existe (Nube), o el 8080 si es Local.
+// 1. CONFIGURACIÓN DEL PUERTO 
+
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
@@ -19,8 +18,7 @@ builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
 // 2. BASE DE DATOS (SEGÚN TUS NOTAS)
-// Leemos la variable "DATABASE" que pusiste en Railway.
-// Si no existe (es null), usa la del appsettings (Local).
+
 var urlRailway = Environment.GetEnvironmentVariable("DATABASE_PUBLIC_URL");
 
 var connectionString = urlRailway ?? builder.Configuration.GetConnectionString("SucursalContext");
@@ -95,82 +93,6 @@ builder.Services.AddHttpClient<IAlmacenFabricaClient, AlmacenFabricaClient>(clie
         ?? "http://localhost:5006");
 });
 
-// 7. LOGÍSTICA - Rutas de distribución, envíos
-builder.Services.AddHttpClient<ILogisticaClient, LogisticaClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Logistica"]
-        ?? "http://localhost:5007");
-});
-
-// 8. PRODUCCIÓN - Órdenes de producción, capacidad de planta
-builder.Services.AddHttpClient<IProduccionClient, ProduccionClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Produccion"]
-        ?? "http://localhost:5008");
-});
-
-// 9. CONTROL DE CALIDAD - Inspecciones, retiros de producto
-builder.Services.AddHttpClient<IControlCalidadClient, ControlCalidadClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:ControlCalidad"]
-        ?? "http://localhost:5009");
-});
-
-// 10. MANTENIMIENTO - Equipos, paradas de máquinas
-builder.Services.AddHttpClient<IMantenimientoClient, MantenimientoClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Mantenimiento"]
-        ?? "http://localhost:5010");
-});
-
-// 11. SEGURIDAD - Incidentes, alertas de seguridad
-builder.Services.AddHttpClient<ISeguridadClient, SeguridadClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Seguridad"]
-        ?? "http://localhost:5011");
-});
-
-// 12. RECEPCIÓN - Entrada de materias primas
-builder.Services.AddHttpClient<IRecepcionClient, RecepcionClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Recepcion"]
-        ?? "http://localhost:5012");
-});
-
-// 13. DESPACHO - Salida de productos
-builder.Services.AddHttpClient<IDespachoClient, DespachoClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Despacho"]
-        ?? "http://localhost:5013");
-});
-
-// 14. ATENCIÓN AL CLIENTE - Reclamos, satisfacción
-builder.Services.AddHttpClient<IAtencionClienteClient, AtencionClienteClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:AtencionCliente"]
-        ?? "http://localhost:5014");
-});
-
-// 15. FACTURACIÓN - Documentos, impuestos
-builder.Services.AddHttpClient<IFacturacionClient, FacturacionClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Facturacion"]
-        ?? "http://localhost:5015");
-});
-
-// 16. TESORERÍA - Caja, flujo de efectivo
-builder.Services.AddHttpClient<ITesoreriaClient, TesoreriaClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Tesoreria"]
-        ?? "http://localhost:5016");
-});
-
-// 17. PLANIFICACIÓN - Demanda, proyecciones
-builder.Services.AddHttpClient<IPlanificacionClient, PlanificacionClient>(client =>
-{
-    client.BaseAddress = new Uri(builder.Configuration["MicroservicesUrls:Planificacion"]
-        ?? "http://localhost:5017");
-});
 
 // Servicios de Aplicación
 builder.Services.AddScoped<DashboardService>();
@@ -181,12 +103,12 @@ builder.Services.AddScoped<ReportesService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddAuthorization(); // <--- ¡NO BORRES ESTO! Evita que la app se rompa.
+builder.Services.AddAuthorization(); 
 
 var app = builder.Build();
 
-// 3. MIGRACIÓN AUTOMÁTICA (COMO DICEN TUS NOTAS)
-// Esto ejecuta el "update database" solito cuando subes a la nube.
+// 3. MIGRACIÓN AUTOMÁTICA 
+
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<SucursalDbContext>();
